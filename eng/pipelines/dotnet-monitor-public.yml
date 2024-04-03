@@ -42,7 +42,7 @@ extends:
     is1ESPipeline: false
     pool:
       name: $(DncEngPublicBuildPool)
-      image: 1es-windows-2022
+      image: 1es-windows-2022-open
       os: windows
     stages:
     - stage: Build
